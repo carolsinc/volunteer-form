@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Volunteer Form</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+  <header>
+    <div class="island-1-2">
+    <h1 class="header-text push-none pad-t-1-2 pad-b-1-2 zetta">Apply to be a tree planter</h1>
+    <p class="header-text mega bold">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+    </div>
+  </header>
+
+  <section class="max-length gutter-1-2">
+    <form action="https://formspree.io/" method="POST">
+      <div class="grid">
+        <h2 class="unit xs-1 m-1 pad-t-2 giga">Personal details</h2>
+
+            <div class="unit push-0 pad-t-1-4 pad-b-1-2 xs-1 m-1-2">
+              <label for="name">Full name</label>
+              <input id="name" name="name" required>
+              <p class="italic micro">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+            </div>
+
+            <div class="unit xs-1 m-1-2 pad-b-1-4">
+              <label for="nickname">What should we call you?</label>
+              <input id="nickname" name="nickname">
+              <p class="italic micro">What all your friends call you, e.g. “Liz”.</p>
+            </div>
+
+            <div class="push unit xs-1 m-1-2 xl-1 pad-b-1-4">
+              <label for="date">Date of birth</label>
+              <input type="date" id="date" name="date" required>
+            </div>
+
+            <div class="unit max-length pad-b-1-4 push">
+              <label for="shirt">T-shirt size</label>
+              <select id="shirt" name="shirt">
+                <option>Select a t-shirt size</option>
+                <option>Fitted: XS</option>
+                <option>Fitted: S</option>
+                <option>Fitted: M</option>
+                <option>Fitted: L</option>
+                <option>Fitted: XL</option>
+                <option>Straight-cut: XS</option>
+                <option>Straight-cut: S</option>
+                <option>Straight-cut: M</option>
+                <option>Straight-cut: L</option>
+                <option>Straight-cut: XL</option>
+              </select>
+            </div>
+
+            <div class="push unit xs-1 m-1-2 pad-b-1-4">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required>
+            </div>
+
+            <div class="unit push pad-b-1-4 xs-1 m-1-2">
+              <label for="number">Phone number <em>(optional)</em></label>
+              <input id="number" name="number" type="tel">
+            </div>
+
+
+
+
+
+
+
+    </div>
+  </section>
+</body>
+</html>
