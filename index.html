@@ -25,7 +25,7 @@
       <div class="grid">
         <h2 class="unit xs-1 m-1 pad-t-2 giga">Personal details</h2>
 
-            <div class="unit push-0 pad-t-1-4 pad-b-1-2 xs-1 m-1-2">
+            <div class="unit pad-t-1-4 pad-b-1-2 xs-1 m-1-2">
               <label for="name">Full name</label>
               <input id="name" name="name" required>
               <p class="italic micro">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
@@ -37,12 +37,12 @@
               <p class="italic micro">What all your friends call you, e.g. “Liz”.</p>
             </div>
 
-            <div class="push unit xs-1 m-1-2 xl-1 pad-b-1-4">
+            <div class="push unit xs-1 m-1-2 pad-b-1-4">
               <label for="date">Date of birth</label>
               <input type="date" id="date" name="date" required>
             </div>
 
-            <div class="unit max-length pad-b-1-4 push">
+            <div class="unit xs-1 m-1-2 pad-b-1-4 push">
               <label for="shirt">T-shirt size</label>
               <select id="shirt" name="shirt">
                 <option>Select a t-shirt size</option>
@@ -64,10 +64,49 @@
               <input id="email" name="email" type="email" required>
             </div>
 
-            <div class="unit push pad-b-1-4 xs-1 m-1-2">
+            <div class="unit push pad-b-1-2 xs-1 m-1-2">
               <label for="number">Phone number <em>(optional)</em></label>
               <input id="number" name="number" type="tel">
             </div>
+          </div>
+
+          <div class="grid">
+            <h2 class="address unit giga pad-t-2 pad-b-1-2 xs-1">Address</h2>
+
+              <div class="unit pad-b-1-2 push-1-2 pad-t-1-4 xs-1 m-1-2">
+                <label for="street address">Street Address</label>
+                <input id="street address" name="street address" required>
+              </div>
+
+              <div class="unit pad-b-1-2 push-1-2 pad-t-1-2 xs-1 m-1-2">
+                <label for="city">City</label>
+                <input id="city" name="city" required>
+              </div>
+
+            <div class="unit push pad-b-1-2 pad-t-1-2 xs-1 m-1-2">
+              <label for="province">Province</label>
+              <select id="province" name="province" required>
+                <option>Select a Province</option>
+                <option>Alberta</option>
+                <option>British Columbia</option>
+                <option>Manitoba</option>
+                <option>New Brunswick</option>
+                <option>Newfoundland & Labrador</option>
+                <option>Northwest Territories</option>
+                <option>Nova Scotia</option>
+                <option>Nunavut</option>
+                <option>Ontario</option>
+                <option>Prince Edward Island</option>
+                <option>Québec</option>
+                <option>Saskatchewan</option>
+                <option>Yukon</option>
+            </select>
+          </div>
+
+              <div class="address-end unit push-1-2 pad-b-2 pad-t-1-2 xs-1 m-1-2">
+                <label for="postal-code">Postal Code</label>
+                <input id="postal-code" name="postal-code" required>
+              </div>
 
 
 
@@ -75,7 +114,12 @@
 
 
 
-    </div>
+
+
+
+
+
+
   </section>
 </body>
 </html>

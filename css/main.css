@@ -9,3 +9,11 @@ header{
 .header-text{
   color: #fff;
 }
+
+.address {
+  border-top: 1px solid #6e8c62;
+}
+
+.address-end {
+  border-bottom: 1px solid #6e8c62;
+}
